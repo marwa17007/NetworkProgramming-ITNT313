@@ -1,7 +1,7 @@
 import socket
 import sys
 # Create a TCP/IP socket 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Connect the socket to the server listening port
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Connect the socket to the server rlistening port
 server_address = ('localhost', 1024)
 sock.connect(server_address)
 try:
